@@ -13,6 +13,11 @@
 		775B6B8F264EBC5C00E132A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 775B6B8D264EBC5C00E132A8 /* Main.storyboard */; };
 		775B6B91264EBC5D00E132A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 775B6B90264EBC5D00E132A8 /* Assets.xcassets */; };
 		775B6B94264EBC5D00E132A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 775B6B92264EBC5D00E132A8 /* LaunchScreen.storyboard */; };
+		775B6B9C264EBEAB00E132A8 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775B6B9B264EBEAB00E132A8 /* QuestionViewController.swift */; };
+		775B6B9E264EBEB200E132A8 /* FinishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775B6B9D264EBEB200E132A8 /* FinishViewController.swift */; };
+		775B6BA0264EBEBF00E132A8 /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775B6B9F264EBEBF00E132A8 /* ListTableViewController.swift */; };
+		775B6BA2264EBECB00E132A8 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775B6BA1264EBECB00E132A8 /* AddViewController.swift */; };
+		775B6BA4264EC22E00E132A8 /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775B6BA3264EC22E00E132A8 /* ListTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		775B6B90264EBC5D00E132A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		775B6B93264EBC5D00E132A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		775B6B95264EBC5D00E132A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		775B6B9B264EBEAB00E132A8 /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		775B6B9D264EBEB200E132A8 /* FinishViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishViewController.swift; sourceTree = "<group>"; };
+		775B6B9F264EBEBF00E132A8 /* ListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
+		775B6BA1264EBECB00E132A8 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		775B6BA3264EC22E00E132A8 /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +69,11 @@
 				775B6B87264EBC5C00E132A8 /* AppDelegate.swift */,
 				775B6B89264EBC5C00E132A8 /* SceneDelegate.swift */,
 				775B6B8B264EBC5C00E132A8 /* ViewController.swift */,
+				775B6B9B264EBEAB00E132A8 /* QuestionViewController.swift */,
+				775B6B9D264EBEB200E132A8 /* FinishViewController.swift */,
+				775B6B9F264EBEBF00E132A8 /* ListTableViewController.swift */,
+				775B6BA1264EBECB00E132A8 /* AddViewController.swift */,
+				775B6BA3264EC22E00E132A8 /* ListTableViewCell.swift */,
 				775B6B8D264EBC5C00E132A8 /* Main.storyboard */,
 				775B6B90264EBC5D00E132A8 /* Assets.xcassets */,
 				775B6B92264EBC5D00E132A8 /* LaunchScreen.storyboard */,
@@ -137,8 +152,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				775B6B9E264EBEB200E132A8 /* FinishViewController.swift in Sources */,
+				775B6BA4264EC22E00E132A8 /* ListTableViewCell.swift in Sources */,
 				775B6B8C264EBC5C00E132A8 /* ViewController.swift in Sources */,
+				775B6BA2264EBECB00E132A8 /* AddViewController.swift in Sources */,
 				775B6B88264EBC5C00E132A8 /* AppDelegate.swift in Sources */,
+				775B6BA0264EBEBF00E132A8 /* ListTableViewController.swift in Sources */,
+				775B6B9C264EBEAB00E132A8 /* QuestionViewController.swift in Sources */,
 				775B6B8A264EBC5C00E132A8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
